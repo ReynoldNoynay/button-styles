@@ -59,25 +59,9 @@ div {
   color: white;
 }
 
-.btn-small {
-  border-color: #666;
-  background-color: #666;
-  color: #fff;
-}
 .btn-small:hover {
   border-color: #000;
   background-color: #000;
-  color: white;
-}
-
-.btn-small-subtle {
-  border-color: #ccc;
-  background-color: #ccc;
-  color: #fff;
-}
-.btn-small-subtle:hover {
-  border-color: #666;
-  background-color: #666;
   color: white;
 }
 
