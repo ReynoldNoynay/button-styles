@@ -24,21 +24,30 @@ div {
 }
 
 .btn:hover {
-  color: #fff;
-  background-color: #000
-  border-color: #000;
+  background-color: #fff;
 }
 
-.btnsmall {
-  text-decoration: none;
-  background-color: #333;
-  color: #fff;
-  display: inline-block;
-  border-radius: 8px;
-  font-size: 1.125rem;
-  border: 3px solid #333;
-  padding: .4em .75em .3em;
+.btn-subtle {
+  background-color: #ccc;
+  border-color: #ccc;
 }
+.btn-subtle:hover {
+  background-color: #666;
+  border-color: #666;
+}
+
+.btn-ghost {
+  border-color: #000;
+  background-color: #fff;
+  color: #000;
+}
+.btn-ghost:hover {
+  border-color: #666;
+  background-color: #666;
+  color: white;
+}
+
+
 .btn-big {
   text-decoration: none;
   background-color: red;
